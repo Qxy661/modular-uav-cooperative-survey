@@ -87,10 +87,14 @@
 | 81 | Fly, Drive, Reconfigure: A Modular Reconfigurable Aerial-Ground Platform for Field Operations | 2026 | B | [arXiv:2609.28887](https://arxiv.org/abs/2609.28887) |
 | 82 | Deep reinforcement learning of event-triggered communication and control for multi-agent cooperative transport | 2021 | B | [arXiv:2103.15260](https://arxiv.org/abs/2103.15260) |
 | 83 | Deep reinforcement learning of event-triggered communication and consensus-based control for distributed cooperative transport | 2022 | B | [arXiv:2212.01958](https://arxiv.org/abs/2212.01958) |
+| 84 | Cooperative Transportation of UAVs Without Inter-UAV Communication | 2021 | B | [arXiv:2111.03283](https://arxiv.org/abs/2111.03283) |
+| 85 | Residual Wrench Certification and Margin-Aware Control Synthesis for Aerial Physical Interaction | 2026 | B | [arXiv:2609.38707](https://arxiv.org/abs/2609.38707) |
+| 86 | External-Wrench Estimation for Aerial Robots Exploiting a Learned Model | 2025 | B | [arXiv:2504.08156](https://arxiv.org/abs/2504.08156) |
 
-**核对说明**：83 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
+**核对说明**：86 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
 
 - [1]–[39]：第一轮核心语料（39 篇，33 arXiv + 6 DOI）。
 - [40]–[47]：跨学科锚点 8 篇（DOI/HAL，对应 [12 跨学科交叉](docs/12_cross_disciplinary.md)），与核心语料分开计。
 - [48]–[77]：第二轮补充核心文献 30 篇（多轮滚动检索新增，全部为 arXiv 预印本，证据分统一为 B）。
-- [78]–[83]：第三轮复核新增 6 篇（刚性耦合、变惯量负载、模块化设计、事件触发通信协同搬运；全部 arXiv，证据分 B）。三轮合计核心语料 75 篇，加 8 篇锚点共 83 篇编号文献；第三轮复核记录见 [13.6](docs/13_knowledge_system.md)。
+- [78]–[83]：第三轮复核新增 6 篇（刚性耦合、变惯量负载、模块化设计、事件触发通信协同搬运；全部 arXiv，证据分 B）。
+- [84]–[86]：第四轮定向补查新增 3 篇（无通信协同搬运、残差力旋量认证、学习型外力估计；全部 arXiv，证据分 B），对应 [17.8 主张-证据审计](docs/17_mainline_common.md)。四轮合计核心语料 78 篇，加 8 篇锚点共 86 篇编号文献；各轮记录见 [13.6](docs/13_knowledge_system.md)。
