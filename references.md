@@ -51,5 +51,39 @@
 | 45 | From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators | 2000 | A | [10.1016/S0167-2789(00)00094-4](https://doi.org/10.1016/S0167-2789(00)00094-4) |
 | 46 | A comprehensive study of Convergent and Commutative Replicated Data Types | 2011 | B | [hal.inria.fr/inria-00609399](https://hal.inria.fr/inria-00609399) |
 | 47 | Design Rules: The Power of Modularity | 2000 | A | [10.7551/mitpress/2366.001.0001](https://doi.org/10.7551/mitpress/2366.001.0001) |
+| 48 | Optimized Modular Design and Development of a Tilt-Rotor Bicopter Drone | 2026 | B | [arXiv:2608.30222](https://arxiv.org/abs/2608.30222) |
+| 49 | A Classification of Heterogeneity in Uncrewed Vehicle Swarms and the Effects of Its Inclusion on Overall Swarm Resilience | 2026 | B | [arXiv:2603.28831](https://arxiv.org/abs/2603.28831) |
+| 50 | Cooperative Aerial Transportation of a Payload with a Sliding Cable Attachment | 2026 | B | [arXiv:2610.13665](https://arxiv.org/abs/2610.13665) |
+| 51 | The Geometry of Coordinated Trajectories for Non-stop Flying Carriers Holding a Cable-Suspended Load | 2026 | B | [arXiv:2603.17225](https://arxiv.org/abs/2603.17225) |
+| 52 | AFD-CAMLs: Agile Force-Distribution-Aware Planning and Control for Cable-Suspended Aerial Multi-Lifting Systems | 2026 | B | [arXiv:2610.01185](https://arxiv.org/abs/2610.01185) |
+| 53 | Passive Stiffness Shaping in Cable-Suspended Aerial Manipulation via Movable Compliant Anchors | 2026 | B | [arXiv:2609.40102](https://arxiv.org/abs/2609.40102) |
+| 54 | Tilt as a Certified Resource: Preserving Motor Wrench-Rate Authority on Articulated Multirotors | 2026 | B | [arXiv:2609.21580](https://arxiv.org/abs/2609.21580) |
+| 55 | A Tilt-Rotor UAV with a Gripper for Stable Contact-Based Tasks via Environmental Anchoring | 2026 | B | [arXiv:2608.01736](https://arxiv.org/abs/2608.01736) |
+| 56 | CBF-Based Control Allocation for Omnidirectional Tiltrotor Aerial Robots | 2026 | B | [arXiv:2610.22057](https://arxiv.org/abs/2610.22057) |
+| 57 | Cooperative Switched Formation Control of Autonomous Vehicles: An Event-triggered Approach to Input Saturation and Time-delay Challenges | 2026 | B | [arXiv:2606.11971](https://arxiv.org/abs/2606.11971) |
+| 58 | ADMM-Based Distributed Kalman-like Observer with Applications to Cooperative Localization | 2026 | B | [arXiv:2604.21608](https://arxiv.org/abs/2604.21608) |
+| 59 | Weighted Covariance Intersection for Range-based Distributed Cooperative Localization of Multi-Vehicle Systems | 2025 | B | [arXiv:2508.12207](https://arxiv.org/abs/2508.12207) |
+| 60 | Learning to Distributedly Estimate under Partially Known Dynamics: A Covariance-Agnostic Neural Kalman Consensus Filter | 2026 | B | [arXiv:2606.28441](https://arxiv.org/abs/2606.28441) |
+| 61 | Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications | 2026 | B | [arXiv:2610.11308](https://arxiv.org/abs/2610.11308) |
+| 62 | Low-Cost Infrastructure-Free 3D Relative Localization with Sub-Meter Accuracy in Near Field | 2025 | B | [arXiv:2506.19199](https://arxiv.org/abs/2506.19199) |
+| 63 | Radio-based Multi-Robot Odometry and Relative Localization | 2025 | B | [arXiv:2509.26558](https://arxiv.org/abs/2509.26558) |
+| 64 | Grouping Auction-Consensus Algorithm for Decentralized Task Allocation in Multi-Robot Systems | 2026 | B | [arXiv:2608.15884](https://arxiv.org/abs/2608.15884) |
+| 65 | Progress-Based Fault Detection and Health-Aware Task Allocation for Heterogeneous Multi-Robot Systems | 2026 | B | [arXiv:2603.14622](https://arxiv.org/abs/2603.14622) |
+| 66 | A Machine Learning Framework for Fault Detection, Isolation, and Severity Prediction of Autonomous VTOL Aircraft | 2026 | B | [arXiv:2609.14180](https://arxiv.org/abs/2609.14180) |
+| 67 | Preserving Full 6-DOF Actuation Under Abrupt Total Rotor Failures: Passive Fault-Tolerant Flight Control Using a Biaxial-Tilt Hexacopter | 2026 | B | [arXiv:2606.05663](https://arxiv.org/abs/2606.05663) |
+| 68 | Virtual-Tube-Based Cooperative Transport Control for Multi-UAV Systems in Constrained Environments | 2026 | B | [arXiv:2602.05516](https://arxiv.org/abs/2602.05516) |
+| 69 | Safe Multi-Robot Collaborative Transport Using Density Functions | 2026 | B | [arXiv:2610.08441](https://arxiv.org/abs/2610.08441) |
+| 70 | Wrench-Aware Admittance Control for Unknown-Payload Manipulation | 2026 | B | [arXiv:2604.19469](https://arxiv.org/abs/2604.19469) |
+| 71 | Active Propeller Fault Detection and Isolation in Multirotors Via Vibration Model | 2026 | B | [arXiv:2604.07281](https://arxiv.org/abs/2604.07281) |
+| 72 | DeReCo: Decoupling Representation and Coordination Learning for Object-Adaptive Decentralized Multi-Robot Cooperative Transport | 2026 | B | [arXiv:2603.08111](https://arxiv.org/abs/2603.08111) |
+| 73 | Shape Formation for the Cooperative Transportation of Arbitrary Objects Using Multi-Agent Reinforcement Learning | 2026 | B | [arXiv:2606.09610](https://arxiv.org/abs/2606.09610) |
+| 74 | Payload Swing Estimation and Damping Without Payload Parameters for Multirotor UAVs | 2026 | B | [arXiv:2608.18625](https://arxiv.org/abs/2608.18625) |
+| 75 | Byzantine Resilience at Swarm Scale: A Decentralized Blocklist Protocol from Inter-robot Accusations | 2023 | B | [arXiv:2301.06977](https://arxiv.org/abs/2301.06977) |
+| 76 | Fully Byzantine-Resilient Multi-Agent Reinforcement Learning | 2026 | B | [arXiv:2609.25701](https://arxiv.org/abs/2609.25701) |
+| 77 | Compact Force Sensor for Dual-UAV Cable-Suspended Payload Transport with Tension-Aware Outer-Loop Control | 2026 | B | [arXiv:2609.31035](https://arxiv.org/abs/2609.31035) |
 
-**核对说明**：47 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。[40]–[47] 为跨学科锚点（对应 [12 跨学科交叉](docs/12_cross_disciplinary.md)），与 [1]–[39] 核心语料分开计。
+**核对说明**：77 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
+
+- [1]–[39]：第一轮核心语料（39 篇，33 arXiv + 6 DOI）。
+- [40]–[47]：跨学科锚点 8 篇（DOI/HAL，对应 [12 跨学科交叉](docs/12_cross_disciplinary.md)），与核心语料分开计。
+- [48]–[77]：第二轮补充核心文献 30 篇（多轮滚动检索新增，全部为 arXiv 预印本，证据分统一为 B），按知识体系章节归属组织，见 [13 知识体系](docs/13_knowledge_system.md)。
