@@ -22,6 +22,7 @@
 14. **内力可测性的工程前提**（[20](docs/20_internal_force_identifiability.md)）：载荷份额与内力代数上可分离（`G` 秩 6、零空间 6 维），但实测内力被装夹预紧（聚合 10–101 N）与热漂移（10 K 下 13.8 N）主导，是 10% 推力信号（0.49 N）的 20–200 倍；D3 的 `CV<10%` 实为装夹重复性判据。脚本 `experiments/internal_force_identifiability_sim.py` 复现。
 15. **数据回填手册**（[21](docs/21_backfill_playbook.md)）：把 14–20 章的"假设/待实测"逐条落到 `runs/` 字段与回填表，给出 7 步回填顺序、决策表数据依赖、当前状态看板，以及校验脚本 `experiments/validate_runs.py`（缺字段即非零退出）。
 16. **投稿骨架与主张审计**（[22](docs/22_submission_skeleton.md)）：15 条可投稿主张逐条钉到源章节与数字，含中英摘要草稿、章节骨架、图表清单、venue 选择与 6 条审稿风险；`experiments/paper_claims.json` + `experiments/check_claims.py` 强制骨架与正文数字不分叉（不一致即非零退出）。
+17. **相关工作对照表**（[23](docs/23_related_work_table.md)）：43 篇最接近工作按"平台与耦合/通信假设/力感知/故障/与本文差异"六列重排成主稿 Table 1，给出三条增量与覆盖声明；`experiments/check_related_table.py` 校验引用编号与表结构（越界或列数不足即非零退出）。
 
 ## 目标系统画像
 
@@ -54,6 +55,7 @@
 | [20](docs/20_internal_force_identifiability.md) | 内力可测性：载荷/内力的代数分解、噪声底、装夹预紧与热漂移的量级、D3 的 CV 前置条件 |
 | [21](docs/21_backfill_playbook.md) | 数据回填手册：参数台账、`runs/` 目录合同、逐实验回填表、决策表数据依赖、校验脚本 |
 | [22](docs/22_submission_skeleton.md) | 投稿骨架：主张-证据映射、摘要草稿、章节与图表、目标 venue、审稿风险、投稿前检查清单 |
+| [23](docs/23_related_work_table.md) | 相关工作对照表：43 篇最接近工作的六列对比、三条增量、覆盖声明与维护脚本 |
 | [references](references.md) | 86 篇编号文献（78 篇核心 + 8 篇跨学科锚点），A/B/C 证据分级 |
 
 ## 阅读路径
@@ -90,5 +92,6 @@
 ## License
 
 MIT。引用请直接引用论文原文。
+
 
 
