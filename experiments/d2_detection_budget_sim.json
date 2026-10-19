@@ -1,0 +1,1174 @@
+{
+  "config": {
+    "seed": 20261019,
+    "nu": 0.5,
+    "n_arl": 2000000,
+    "reps": 4000,
+    "max_len": 400,
+    "delivery_p95_ms": {
+      "10": 7.2,
+      "20": 8.2,
+      "25": 9.0,
+      "26.7": 9.4,
+      "50": 11.5,
+      "80": 13.0
+    }
+  },
+  "arl0": {
+    "7.8": 16000.0,
+    "7.9": 17094.0,
+    "8.0": 18348.6,
+    "8.1": 21739.1,
+    "8.2": 24390.2,
+    "8.3": 25641.0,
+    "8.4": 27027.0,
+    "8.5": 28985.5,
+    "8.6": 32258.1,
+    "8.7": 37735.8,
+    "8.8": 39215.7,
+    "8.9": 44444.4,
+    "9.0": 51282.1,
+    "9.1": 55555.6,
+    "9.2": 62500.0
+  },
+  "delays": {
+    "1.92_8.0": {
+      "snr": 1.92,
+      "h": 8.0,
+      "median_samples": 6.0,
+      "p95_samples": 10.0,
+      "p99_samples": 11.0,
+      "censored": 0
+    },
+    "1.92_8.6": {
+      "snr": 1.92,
+      "h": 8.6,
+      "median_samples": 7.0,
+      "p95_samples": 10.0,
+      "p99_samples": 12.0,
+      "censored": 0
+    },
+    "1.92_9.0": {
+      "snr": 1.92,
+      "h": 9.0,
+      "median_samples": 7.0,
+      "p95_samples": 10.0,
+      "p99_samples": 12.009999999999764,
+      "censored": 0
+    },
+    "2.89_8.0": {
+      "snr": 2.89,
+      "h": 8.0,
+      "median_samples": 4.0,
+      "p95_samples": 5.0,
+      "p99_samples": 6.0,
+      "censored": 0
+    },
+    "2.89_8.6": {
+      "snr": 2.89,
+      "h": 8.6,
+      "median_samples": 4.0,
+      "p95_samples": 6.0,
+      "p99_samples": 7.0,
+      "censored": 0
+    },
+    "2.89_9.0": {
+      "snr": 2.89,
+      "h": 9.0,
+      "median_samples": 4.0,
+      "p95_samples": 6.0,
+      "p99_samples": 7.0,
+      "censored": 0
+    },
+    "3.33_8.0": {
+      "snr": 3.33,
+      "h": 8.0,
+      "median_samples": 3.0,
+      "p95_samples": 5.0,
+      "p99_samples": 5.0,
+      "censored": 0
+    },
+    "3.33_8.6": {
+      "snr": 3.33,
+      "h": 8.6,
+      "median_samples": 4.0,
+      "p95_samples": 5.0,
+      "p99_samples": 5.0,
+      "censored": 0
+    },
+    "3.33_9.0": {
+      "snr": 3.33,
+      "h": 9.0,
+      "median_samples": 4.0,
+      "p95_samples": 5.0,
+      "p99_samples": 6.0,
+      "censored": 0
+    },
+    "5.0_8.0": {
+      "snr": 5.0,
+      "h": 8.0,
+      "median_samples": 2.0,
+      "p95_samples": 3.0,
+      "p99_samples": 3.0,
+      "censored": 0
+    },
+    "5.0_8.6": {
+      "snr": 5.0,
+      "h": 8.6,
+      "median_samples": 2.0,
+      "p95_samples": 3.0,
+      "p99_samples": 3.0,
+      "censored": 0
+    },
+    "5.0_9.0": {
+      "snr": 5.0,
+      "h": 9.0,
+      "median_samples": 3.0,
+      "p95_samples": 3.0,
+      "p99_samples": 3.0,
+      "censored": 0
+    },
+    "10.0_8.0": {
+      "snr": 10.0,
+      "h": 8.0,
+      "median_samples": 1.0,
+      "p95_samples": 2.0,
+      "p99_samples": 2.0,
+      "censored": 0
+    },
+    "10.0_8.6": {
+      "snr": 10.0,
+      "h": 8.6,
+      "median_samples": 1.0,
+      "p95_samples": 2.0,
+      "p99_samples": 2.0,
+      "censored": 0
+    },
+    "10.0_9.0": {
+      "snr": 10.0,
+      "h": 9.0,
+      "median_samples": 1.0,
+      "p95_samples": 2.0,
+      "p99_samples": 2.0,
+      "censored": 0
+    }
+  },
+  "latency": {
+    "1.92_8.0_10": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 557.2,
+      "latency_p95_ms": 1007.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.0_20": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 283.2,
+      "latency_p95_ms": 508.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.0_25": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 229.0,
+      "latency_p95_ms": 409.0,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.0_26.7": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 215.4,
+      "latency_p95_ms": 383.9,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.0_50": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 121.5,
+      "latency_p95_ms": 211.5,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "1.92_8.0_80": {
+      "snr": 1.92,
+      "h": 8.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 81.8,
+      "latency_p95_ms": 138.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "1.92_8.6_10": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 657.2,
+      "latency_p95_ms": 1007.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.6_20": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 333.2,
+      "latency_p95_ms": 508.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.6_25": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 269.0,
+      "latency_p95_ms": 409.0,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.6_26.7": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 252.8,
+      "latency_p95_ms": 383.9,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_8.6_50": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 141.5,
+      "latency_p95_ms": 211.5,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "1.92_8.6_80": {
+      "snr": 1.92,
+      "h": 8.6,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 94.2,
+      "latency_p95_ms": 138.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "1.92_9.0_10": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 657.2,
+      "latency_p95_ms": 1007.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_9.0_20": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 333.2,
+      "latency_p95_ms": 508.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_9.0_25": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 269.0,
+      "latency_p95_ms": 409.0,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_9.0_26.7": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 252.8,
+      "latency_p95_ms": 383.9,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "1.92_9.0_50": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 141.5,
+      "latency_p95_ms": 211.5,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "1.92_9.0_80": {
+      "snr": 1.92,
+      "h": 9.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 94.2,
+      "latency_p95_ms": 138.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_8.0_10": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 357.2,
+      "latency_p95_ms": 507.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_8.0_20": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 183.2,
+      "latency_p95_ms": 258.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_8.0_25": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 149.0,
+      "latency_p95_ms": 209.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_8.0_26.7": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 140.5,
+      "latency_p95_ms": 196.7,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_8.0_50": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 81.5,
+      "latency_p95_ms": 111.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_8.0_80": {
+      "snr": 2.89,
+      "h": 8.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 56.8,
+      "latency_p95_ms": 75.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_8.6_10": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 357.2,
+      "latency_p95_ms": 607.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_8.6_20": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 183.2,
+      "latency_p95_ms": 308.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_8.6_25": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 149.0,
+      "latency_p95_ms": 249.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_8.6_26.7": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 140.5,
+      "latency_p95_ms": 234.1,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_8.6_50": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 81.5,
+      "latency_p95_ms": 131.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_8.6_80": {
+      "snr": 2.89,
+      "h": 8.6,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 56.8,
+      "latency_p95_ms": 88.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_9.0_10": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 357.2,
+      "latency_p95_ms": 607.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_9.0_20": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 183.2,
+      "latency_p95_ms": 308.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "2.89_9.0_25": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 149.0,
+      "latency_p95_ms": 249.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_9.0_26.7": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 140.5,
+      "latency_p95_ms": 234.1,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "2.89_9.0_50": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 81.5,
+      "latency_p95_ms": 131.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "2.89_9.0_80": {
+      "snr": 2.89,
+      "h": 9.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 56.8,
+      "latency_p95_ms": 88.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_8.0_10": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 257.2,
+      "latency_p95_ms": 507.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "3.33_8.0_20": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 133.2,
+      "latency_p95_ms": 258.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_8.0_25": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 109.0,
+      "latency_p95_ms": 209.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_8.0_26.7": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 103.0,
+      "latency_p95_ms": 196.7,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_8.0_50": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 61.5,
+      "latency_p95_ms": 111.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_8.0_80": {
+      "snr": 3.33,
+      "h": 8.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 44.2,
+      "latency_p95_ms": 75.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_8.6_10": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 357.2,
+      "latency_p95_ms": 507.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "3.33_8.6_20": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 183.2,
+      "latency_p95_ms": 258.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "3.33_8.6_25": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 149.0,
+      "latency_p95_ms": 209.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_8.6_26.7": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 140.5,
+      "latency_p95_ms": 196.7,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_8.6_50": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 81.5,
+      "latency_p95_ms": 111.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_8.6_80": {
+      "snr": 3.33,
+      "h": 8.6,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 56.8,
+      "latency_p95_ms": 75.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_9.0_10": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 357.2,
+      "latency_p95_ms": 507.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "3.33_9.0_20": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 183.2,
+      "latency_p95_ms": 258.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "3.33_9.0_25": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 149.0,
+      "latency_p95_ms": 209.0,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_9.0_26.7": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 140.5,
+      "latency_p95_ms": 196.7,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "3.33_9.0_50": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 81.5,
+      "latency_p95_ms": 111.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "3.33_9.0_80": {
+      "snr": 3.33,
+      "h": 9.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 56.8,
+      "latency_p95_ms": 75.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.0_10": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 157.2,
+      "latency_p95_ms": 307.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "5.0_8.0_20": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 83.2,
+      "latency_p95_ms": 158.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "5.0_8.0_25": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 69.0,
+      "latency_p95_ms": 129.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.0_26.7": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 65.6,
+      "latency_p95_ms": 121.8,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.0_50": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 41.5,
+      "latency_p95_ms": 71.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.0_80": {
+      "snr": 5.0,
+      "h": 8.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 31.8,
+      "latency_p95_ms": 50.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.6_10": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 157.2,
+      "latency_p95_ms": 307.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "5.0_8.6_20": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 83.2,
+      "latency_p95_ms": 158.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "5.0_8.6_25": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 69.0,
+      "latency_p95_ms": 129.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.6_26.7": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 65.6,
+      "latency_p95_ms": 121.8,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.6_50": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 41.5,
+      "latency_p95_ms": 71.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_8.6_80": {
+      "snr": 5.0,
+      "h": 8.6,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 31.8,
+      "latency_p95_ms": 50.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_9.0_10": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 257.2,
+      "latency_p95_ms": 307.2,
+      "pass_median": false,
+      "pass_p95": false
+    },
+    "5.0_9.0_20": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 133.2,
+      "latency_p95_ms": 158.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "5.0_9.0_25": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 109.0,
+      "latency_p95_ms": 129.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_9.0_26.7": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 103.0,
+      "latency_p95_ms": 121.8,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_9.0_50": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 61.5,
+      "latency_p95_ms": 71.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "5.0_9.0_80": {
+      "snr": 5.0,
+      "h": 9.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 44.2,
+      "latency_p95_ms": 50.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.0_10": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 57.2,
+      "latency_p95_ms": 207.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "10.0_8.0_20": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 33.2,
+      "latency_p95_ms": 108.2,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.0_25": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 29.0,
+      "latency_p95_ms": 89.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.0_26.7": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 28.1,
+      "latency_p95_ms": 84.3,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.0_50": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 21.5,
+      "latency_p95_ms": 51.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.0_80": {
+      "snr": 10.0,
+      "h": 8.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 19.2,
+      "latency_p95_ms": 38.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.6_10": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 57.2,
+      "latency_p95_ms": 207.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "10.0_8.6_20": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 33.2,
+      "latency_p95_ms": 108.2,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.6_25": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 29.0,
+      "latency_p95_ms": 89.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.6_26.7": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 28.1,
+      "latency_p95_ms": 84.3,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.6_50": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 21.5,
+      "latency_p95_ms": 51.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_8.6_80": {
+      "snr": 10.0,
+      "h": 8.6,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 19.2,
+      "latency_p95_ms": 38.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_9.0_10": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 10,
+      "period_ms": 100.0,
+      "delivery_p95_ms": 7.2,
+      "latency_median_ms": 57.2,
+      "latency_p95_ms": 207.2,
+      "pass_median": true,
+      "pass_p95": false
+    },
+    "10.0_9.0_20": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 20,
+      "period_ms": 50.0,
+      "delivery_p95_ms": 8.2,
+      "latency_median_ms": 33.2,
+      "latency_p95_ms": 108.2,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_9.0_25": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 25,
+      "period_ms": 40.0,
+      "delivery_p95_ms": 9.0,
+      "latency_median_ms": 29.0,
+      "latency_p95_ms": 89.0,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_9.0_26.7": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 26.7,
+      "period_ms": 37.45,
+      "delivery_p95_ms": 9.4,
+      "latency_median_ms": 28.1,
+      "latency_p95_ms": 84.3,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_9.0_50": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 50,
+      "period_ms": 20.0,
+      "delivery_p95_ms": 11.5,
+      "latency_median_ms": 21.5,
+      "latency_p95_ms": 51.5,
+      "pass_median": true,
+      "pass_p95": true
+    },
+    "10.0_9.0_80": {
+      "snr": 10.0,
+      "h": 9.0,
+      "rate_hz": 80,
+      "period_ms": 12.5,
+      "delivery_p95_ms": 13.0,
+      "latency_median_ms": 19.2,
+      "latency_p95_ms": 38.0,
+      "pass_median": true,
+      "pass_p95": true
+    }
+  },
+  "h_for_rate": {
+    "10": {
+      "target_arl0": 6000.0,
+      "h": 7.8
+    },
+    "20": {
+      "target_arl0": 12000.0,
+      "h": 7.8
+    },
+    "25": {
+      "target_arl0": 15000.0,
+      "h": 7.8
+    },
+    "26.7": {
+      "target_arl0": 16020.0,
+      "h": 7.9
+    },
+    "50": {
+      "target_arl0": 30000.0,
+      "h": 8.6
+    },
+    "80": {
+      "target_arl0": 48000.0,
+      "h": 9.0
+    }
+  }
+}
