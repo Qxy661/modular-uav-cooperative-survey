@@ -81,9 +81,16 @@
 | 75 | Byzantine Resilience at Swarm Scale: A Decentralized Blocklist Protocol from Inter-robot Accusations | 2023 | B | [arXiv:2301.06977](https://arxiv.org/abs/2301.06977) |
 | 76 | Fully Byzantine-Resilient Multi-Agent Reinforcement Learning | 2026 | B | [arXiv:2609.25701](https://arxiv.org/abs/2609.25701) |
 | 77 | Compact Force Sensor for Dual-UAV Cable-Suspended Payload Transport with Tension-Aware Outer-Loop Control | 2026 | B | [arXiv:2609.31035](https://arxiv.org/abs/2609.31035) |
+| 78 | Reinforcement Learning Driven Cooperative Ball Balance in Rigidly Coupled Drones | 2024 | B | [arXiv:2404.19070](https://arxiv.org/abs/2404.19070) |
+| 79 | Observer-Based Estimation and Hydrostatic Inertia Modeling for Cooperative Transport of Variable-Inertia Loads with Quadrotors | 2026 | B | [arXiv:2602.24260](https://arxiv.org/abs/2602.24260) |
+| 80 | Task-Adaptive Design of Modular Aerial Manipulators Under Airflow Exposure Constraints | 2026 | B | [arXiv:2607.09548](https://arxiv.org/abs/2607.09548) |
+| 81 | Fly, Drive, Reconfigure: A Modular Reconfigurable Aerial-Ground Platform for Field Operations | 2026 | B | [arXiv:2609.28887](https://arxiv.org/abs/2609.28887) |
+| 82 | Deep reinforcement learning of event-triggered communication and control for multi-agent cooperative transport | 2021 | B | [arXiv:2103.15260](https://arxiv.org/abs/2103.15260) |
+| 83 | Deep reinforcement learning of event-triggered communication and consensus-based control for distributed cooperative transport | 2022 | B | [arXiv:2212.01958](https://arxiv.org/abs/2212.01958) |
 
-**核对说明**：77 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
+**核对说明**：83 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
 
 - [1]–[39]：第一轮核心语料（39 篇，33 arXiv + 6 DOI）。
 - [40]–[47]：跨学科锚点 8 篇（DOI/HAL，对应 [12 跨学科交叉](docs/12_cross_disciplinary.md)），与核心语料分开计。
-- [48]–[77]：第二轮补充核心文献 30 篇（多轮滚动检索新增，全部为 arXiv 预印本，证据分统一为 B），按知识体系章节归属组织，见 [13 知识体系](docs/13_knowledge_system.md)。
+- [48]–[77]：第二轮补充核心文献 30 篇（多轮滚动检索新增，全部为 arXiv 预印本，证据分统一为 B）。
+- [78]–[83]：第三轮复核新增 6 篇（刚性耦合、变惯量负载、模块化设计、事件触发通信协同搬运；全部 arXiv，证据分 B）。三轮合计核心语料 75 篇，加 8 篇锚点共 83 篇编号文献；第三轮复核记录见 [13.6](docs/13_knowledge_system.md)。
