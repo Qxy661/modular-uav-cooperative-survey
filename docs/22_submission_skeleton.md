@@ -138,6 +138,7 @@
 按顺序执行，任一步失败即停：
 
 ```bash
+python experiments/check_all.py             # 一键八门（内链/编号/主张/Table 1/引言/材料包/数据）
 python experiments/check_claims.py          # 主张 ↔ 源章节 ↔ 骨架 数字一致
 python experiments/check_related_table.py   # 表 1 引用编号与六列结构
 python experiments/check_intro.py           # 24 章主张与引用编号
@@ -164,5 +165,6 @@ python experiments/internal_force_identifiability_sim.py  # 重跑 20 章数字
    的材料包先组装支撑稿（cover letter、Highlights、声明已写成模板）。
 
 **本章不产生新数字**；`experiments/paper_claims.json` 与本节表格是同一事实的两种表示，
-由 `experiments/check_claims.py` 强制同步。
+由 `experiments/check_claims.py` 强制同步。v0.9 冻结与 8 道门的当前状态见
+[26](26_submission_readiness.md)。
 
