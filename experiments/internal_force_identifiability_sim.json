@@ -1,0 +1,174 @@
+{
+  "config": {
+    "seed": 20261019,
+    "W_total_N": 19.62,
+    "f0_N": 4.905,
+    "side_m": 0.3,
+    "alpha_al_1_K": 2.3e-05
+  },
+  "grasp": {
+    "singular_values": [
+      2.0,
+      2.0,
+      2.0,
+      0.4243,
+      0.3,
+      0.3
+    ],
+    "rank": 6,
+    "cond_unscaled": 6.667,
+    "cond_scaled_by_arm": 1.414,
+    "null_dim": 6,
+    "compression_mode_is_null": 0.0
+  },
+  "random_internal_fraction": {
+    "mean": 0.691,
+    "p50": 0.706,
+    "p95": 0.899,
+    "theory_chi_over_sqrt12": 0.707
+  },
+  "noise_floor": {
+    "1pct_f0": {
+      "sigma_N": 0.0491,
+      "p50_N": 0.1133,
+      "p95_N": 0.1742,
+      "signal_10pct_N": 0.4905,
+      "p95_after_20_cycle_avg_N": 0.039
+    },
+    "2pct_f0": {
+      "sigma_N": 0.0981,
+      "p50_N": 0.2265,
+      "p95_N": 0.3485,
+      "signal_10pct_N": 0.4905,
+      "p95_after_20_cycle_avg_N": 0.0779
+    },
+    "3pct_f0": {
+      "sigma_N": 0.1472,
+      "p50_N": 0.3398,
+      "p95_N": 0.5227,
+      "signal_10pct_N": 0.4905,
+      "p95_after_20_cycle_avg_N": 0.1169
+    }
+  },
+  "assembly_stress": {
+    "k_10000": {
+      "per_module_p50_N": 5.0,
+      "internal_p50_N": 9.98,
+      "internal_p95_N": 19.06,
+      "max_N": 20.0,
+      "vs_signal_10pct": 20.3
+    },
+    "k_100000": {
+      "per_module_p50_N": 50.0,
+      "internal_p50_N": 100.9,
+      "internal_p95_N": 189.93,
+      "max_N": 199.99,
+      "vs_signal_10pct": 205.7
+    }
+  },
+  "thermal_drift": {
+    "dT_5K": {
+      "free_expansion_um": 34.5,
+      "cases": {
+        "k_10000": {
+          "per_module_N": 0.34,
+          "internal_N": 0.69,
+          "vs_signal_10pct": 1.4
+        },
+        "k_100000": {
+          "per_module_N": 3.45,
+          "internal_N": 6.9,
+          "vs_signal_10pct": 14.1
+        }
+      }
+    },
+    "dT_10K": {
+      "free_expansion_um": 69.0,
+      "cases": {
+        "k_10000": {
+          "per_module_N": 0.69,
+          "internal_N": 1.38,
+          "vs_signal_10pct": 2.8
+        },
+        "k_100000": {
+          "per_module_N": 6.9,
+          "internal_N": 13.8,
+          "vs_signal_10pct": 28.1
+        }
+      }
+    },
+    "dT_20K": {
+      "free_expansion_um": 138.0,
+      "cases": {
+        "k_10000": {
+          "per_module_N": 1.38,
+          "internal_N": 2.76,
+          "vs_signal_10pct": 5.6
+        },
+        "k_100000": {
+          "per_module_N": 13.8,
+          "internal_N": 27.6,
+          "vs_signal_10pct": 56.3
+        }
+      }
+    }
+  },
+  "geometry_tolerance": {
+    "tol_0.5mm": {
+      "load_share_err_p95_pct": 0.0,
+      "internal_est_err_p95_pct": 0.0,
+      "spurious_internal_p95_N": 5.0
+    },
+    "tol_1.0mm": {
+      "load_share_err_p95_pct": 0.0,
+      "internal_est_err_p95_pct": 0.01,
+      "spurious_internal_p95_N": 5.0
+    },
+    "tol_2.0mm": {
+      "load_share_err_p95_pct": 0.0,
+      "internal_est_err_p95_pct": 0.02,
+      "spurious_internal_p95_N": 5.0
+    }
+  },
+  "d3_repeatability": {
+    "uniform_0_1mm": {
+      "p50_N": 50.31,
+      "p95_N": 94.92,
+      "cv": 0.574,
+      "noise_only_p50_N": 0.228
+    },
+    "normal_0.2_0.02mm": {
+      "p50_N": 19.98,
+      "p95_N": 23.23,
+      "cv": 0.099,
+      "noise_only_p50_N": 0.227
+    }
+  },
+  "rigid_vs_spring_ratio": {
+    "spring_1000": {
+      "transmitted_fraction": 0.0099,
+      "rigid_over_spring": 101.0,
+      "passes_3x": true
+    },
+    "spring_5000": {
+      "transmitted_fraction": 0.0476,
+      "rigid_over_spring": 21.0,
+      "passes_3x": true
+    },
+    "spring_10000": {
+      "transmitted_fraction": 0.0909,
+      "rigid_over_spring": 11.0,
+      "passes_3x": true
+    }
+  },
+  "thermal_compensation_residual": {
+    "dT_10K": {
+      "residual_N": 1.035,
+      "vs_signal_10pct": 2.11
+    },
+    "dT_20K": {
+      "residual_N": 1.725,
+      "vs_signal_10pct": 3.52
+    }
+  }
+}
