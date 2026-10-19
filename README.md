@@ -24,6 +24,7 @@
 16. **投稿骨架与主张审计**（[22](docs/22_submission_skeleton.md)）：15 条可投稿主张逐条钉到源章节与数字，含中英摘要草稿、章节骨架、图表清单、venue 选择与 6 条审稿风险；`experiments/paper_claims.json` + `experiments/check_claims.py` 强制骨架与正文数字不分叉（不一致即非零退出）。
 17. **相关工作对照表**（[23](docs/23_related_work_table.md)）：43 篇最接近工作按"平台与耦合/通信假设/力感知/故障/与本文差异"六列重排成主稿 Table 1，给出三条增量与覆盖声明；`experiments/check_related_table.py` 校验引用编号与表结构（越界或列数不足即非零退出）。
 18. **引言与相关工作的文字稿**（[24](docs/24_intro_related_prose.md)）：按 RA-L 写法给出 Introduction 五段（场景→两个问题→已有工作缺什么→三条贡献→组织）与 Related work 四族文字版，全部数字带主张编号 C1–C15；`experiments/check_intro.py` 校验"不漏引主张、不引不存在的编号"（任一不满足即非零退出）。
+19. **投稿材料包**（[25](docs/25_submission_package.md)）：cover letter、5 条 ≤85 字符的 Highlights、作者贡献/利益冲突/数据可用性/资助声明模板、审稿人 6 问预备回答、一条命令一项的投稿检查清单；`experiments/check_submission.py` 校验 Highlights 字数、主张编号、占位符与内链（任一不满足即非零退出）。
 
 ## 目标系统画像
 
@@ -58,6 +59,7 @@
 | [22](docs/22_submission_skeleton.md) | 投稿骨架：主张-证据映射、摘要草稿、章节与图表、目标 venue、审稿风险、投稿前检查清单 |
 | [23](docs/23_related_work_table.md) | 相关工作对照表：43 篇最接近工作的六列对比、三条增量、覆盖声明与维护脚本 |
 | [24](docs/24_intro_related_prose.md) | Introduction 与 Related Work 文字稿：英文草稿、中文要点、术语表与写作约束（数字全部带 C1–C15） |
+| [25](docs/25_submission_package.md) | 投稿材料包：cover letter、Highlights、四类声明模板、审稿 6 问预备回答、投稿检查清单 |
 | [references](references.md) | 86 篇编号文献（78 篇核心 + 8 篇跨学科锚点），A/B/C 证据分级 |
 
 ## 阅读路径
@@ -65,7 +67,7 @@
 - **做决策**：00（范围与证据）→ 10（gap）→ 11（候选评分）→ 14（预算与判别实验）。
 - **做系统**：03（载荷分配）→ 04（通信）→ 05（定位）→ 08（分配）。
 - **做理论**：06（分布式控制）→ 02（模块抽象）→ 07（容错）→ 13（知识体系与多学科整合）。
-- **写论文**：09（评测协议）+ 11.5（落地矩阵）+ 15（D1–D3 协议）+ 17（主线公共部分）+ 21（数据回填：字段、顺序、状态）+ 22（投稿骨架：主张、图表、风险）+ 23（Table 1）+ 24（Introduction/Related work 文字稿）。
+- **写论文**：09（评测协议）+ 11.5（落地矩阵）+ 15（D1–D3 协议）+ 17（主线公共部分）+ 21（数据回填：字段、顺序、状态）+ 22（投稿骨架：主张、图表、风险）+ 23（Table 1）+ 24（Introduction/Related work 文字稿）+ 25（Cover letter/Highlights/声明/审稿问答）。
 
 ## 主要发现（结论先行）
 
