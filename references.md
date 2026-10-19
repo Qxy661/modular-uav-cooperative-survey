@@ -43,5 +43,13 @@
 | 37 | Downwash-aware Control Allocation for Over-actuated UAV Platforms | 2022 | B | [arXiv:2207.09645](https://arxiv.org/abs/2207.09645) |
 | 38 | A Comparative Study of Real-Time Implementable Cooperative Aerial Manipulation Systems | 2024 | B/C | [arXiv:2403.14347](https://arxiv.org/abs/2403.14347) |
 | 39 | BotNet: A Simulator for Studying the Effects of Accurate Communication Models on Multi-agent and Swarm Control | 2021 | B | [arXiv:2108.13606](https://arxiv.org/abs/2108.13606) |
+| 40 | Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers | 2011 | A | [10.1561/2200000016](https://doi.org/10.1561/2200000016) |
+| 41 | Telemanipulation with Time Delays | 2004 | A | [10.1177/0278364904045563](https://doi.org/10.1177/0278364904045563) |
+| 42 | Resilient Asymptotic Consensus in Robust Networks | 2013 | A | [10.1109/JSAC.2013.130413](https://doi.org/10.1109/JSAC.2013.130413) |
+| 43 | Toward a Physical Internet: meeting the global logistics sustainability grand challenge | 2011 | A | [10.1007/s12159-011-0045-x](https://doi.org/10.1007/s12159-011-0045-x) |
+| 44 | The free-energy principle: a unified brain theory? | 2010 | A | [10.1038/nrn2787](https://doi.org/10.1038/nrn2787) |
+| 45 | From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators | 2000 | A | [10.1016/S0167-2789(00)00094-4](https://doi.org/10.1016/S0167-2789(00)00094-4) |
+| 46 | A comprehensive study of Convergent and Commutative Replicated Data Types | 2011 | B | [hal.inria.fr/inria-00609399](https://hal.inria.fr/inria-00609399) |
+| 47 | Design Rules: The Power of Modularity | 2000 | A | [10.7551/mitpress/2366.001.0001](https://doi.org/10.7551/mitpress/2366.001.0001) |
 
-**核对说明**：39 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。
+**核对说明**：47 条链接于 2026-10-19 全部实测可达（arXiv HTTP 200，DOI 302 跳转出版社，HAL 200）；标题与 arXiv API / Crossref 元数据逐字比对。预印本条目后续可能更新版本，引用时以链接页为准。[40]–[47] 为跨学科锚点（对应 [12 跨学科交叉](docs/12_cross_disciplinary.md)），与 [1]–[39] 核心语料分开计。
