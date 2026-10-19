@@ -1,0 +1,334 @@
+{
+  "seed": 20261019,
+  "params": {
+    "W_N": 19.62,
+    "f0_N": 4.905,
+    "fault_frac_of_f0": 0.1,
+    "rho_values": [
+      0.0,
+      0.6,
+      0.9
+    ],
+    "sigma_pct_values": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "nu_over_sigma": 0.5,
+    "h": 8.0,
+    "h_or": 9.3,
+    "arl0_len": 2000000,
+    "delay_reps": 2000,
+    "delay_max": 500
+  },
+  "rows": [
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.0,
+      "method": "single",
+      "snr": 10.0,
+      "arl0_samples": 17391.0,
+      "false_alarms_per_10min_20hz": 0.69,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.0,
+      "method": "mean4",
+      "snr": 5.0,
+      "arl0_samples": 19608.0,
+      "false_alarms_per_10min_20hz": 0.612,
+      "delay_median_samples": 2.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.0,
+      "method": "or4",
+      "snr": 10.0,
+      "arl0_samples": 17094.0,
+      "false_alarms_per_10min_20hz": 0.702,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": null,
+      "rho": null,
+      "method": "plate",
+      "snr": 5.0,
+      "arl0_samples": 22222.0,
+      "false_alarms_per_10min_20hz": 0.54,
+      "delay_median_samples": 2.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.6,
+      "method": "single",
+      "snr": 10.0,
+      "arl0_samples": 17544.0,
+      "false_alarms_per_10min_20hz": 0.684,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.6,
+      "method": "mean4",
+      "snr": 2.988,
+      "arl0_samples": 22472.0,
+      "false_alarms_per_10min_20hz": 0.534,
+      "delay_median_samples": 4.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.6,
+      "method": "or4",
+      "snr": 10.0,
+      "arl0_samples": 19802.0,
+      "false_alarms_per_10min_20hz": 0.606,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.9,
+      "method": "single",
+      "snr": 10.0,
+      "arl0_samples": 16260.0,
+      "false_alarms_per_10min_20hz": 0.738,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.9,
+      "method": "mean4",
+      "snr": 2.599,
+      "arl0_samples": 19048.0,
+      "false_alarms_per_10min_20hz": 0.63,
+      "delay_median_samples": 4.0,
+      "delay_p95_samples": 6,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 1.0,
+      "rho": 0.9,
+      "method": "or4",
+      "snr": 10.0,
+      "arl0_samples": 24390.0,
+      "false_alarms_per_10min_20hz": 0.492,
+      "delay_median_samples": 1.0,
+      "delay_p95_samples": 2,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.0,
+      "method": "single",
+      "snr": 5.0,
+      "arl0_samples": 17391.0,
+      "false_alarms_per_10min_20hz": 0.69,
+      "delay_median_samples": 2.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.0,
+      "method": "mean4",
+      "snr": 2.5,
+      "arl0_samples": 21053.0,
+      "false_alarms_per_10min_20hz": 0.57,
+      "delay_median_samples": 5.0,
+      "delay_p95_samples": 6,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.0,
+      "method": "or4",
+      "snr": 5.0,
+      "arl0_samples": 17857.0,
+      "false_alarms_per_10min_20hz": 0.672,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.6,
+      "method": "single",
+      "snr": 5.0,
+      "arl0_samples": 18868.0,
+      "false_alarms_per_10min_20hz": 0.636,
+      "delay_median_samples": 2.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.6,
+      "method": "mean4",
+      "snr": 1.494,
+      "arl0_samples": 21739.0,
+      "false_alarms_per_10min_20hz": 0.552,
+      "delay_median_samples": 8.0,
+      "delay_p95_samples": 14,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.6,
+      "method": "or4",
+      "snr": 5.0,
+      "arl0_samples": 17094.0,
+      "false_alarms_per_10min_20hz": 0.702,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.9,
+      "method": "single",
+      "snr": 5.0,
+      "arl0_samples": 18519.0,
+      "false_alarms_per_10min_20hz": 0.648,
+      "delay_median_samples": 2.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.9,
+      "method": "mean4",
+      "snr": 1.3,
+      "arl0_samples": 19231.0,
+      "false_alarms_per_10min_20hz": 0.624,
+      "delay_median_samples": 10.0,
+      "delay_p95_samples": 18,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 2.0,
+      "rho": 0.9,
+      "method": "or4",
+      "snr": 5.0,
+      "arl0_samples": 22727.0,
+      "false_alarms_per_10min_20hz": 0.528,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 3,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.0,
+      "method": "single",
+      "snr": 3.333,
+      "arl0_samples": 16807.0,
+      "false_alarms_per_10min_20hz": 0.714,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.0,
+      "method": "mean4",
+      "snr": 1.667,
+      "arl0_samples": 17544.0,
+      "false_alarms_per_10min_20hz": 0.684,
+      "delay_median_samples": 7.0,
+      "delay_p95_samples": 12,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.0,
+      "method": "or4",
+      "snr": 3.333,
+      "arl0_samples": 15748.0,
+      "false_alarms_per_10min_20hz": 0.762,
+      "delay_median_samples": 4.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.6,
+      "method": "single",
+      "snr": 3.333,
+      "arl0_samples": 18519.0,
+      "false_alarms_per_10min_20hz": 0.648,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.6,
+      "method": "mean4",
+      "snr": 0.996,
+      "arl0_samples": 19231.0,
+      "false_alarms_per_10min_20hz": 0.624,
+      "delay_median_samples": 15.0,
+      "delay_p95_samples": 31,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.6,
+      "method": "or4",
+      "snr": 3.333,
+      "arl0_samples": 18182.0,
+      "false_alarms_per_10min_20hz": 0.66,
+      "delay_median_samples": 4.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.9,
+      "method": "single",
+      "snr": 3.333,
+      "arl0_samples": 17544.0,
+      "false_alarms_per_10min_20hz": 0.684,
+      "delay_median_samples": 3.0,
+      "delay_p95_samples": 4,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.9,
+      "method": "mean4",
+      "snr": 0.866,
+      "arl0_samples": 23810.0,
+      "false_alarms_per_10min_20hz": 0.504,
+      "delay_median_samples": 19.0,
+      "delay_p95_samples": 42,
+      "miss_rate": 0.0
+    },
+    {
+      "sigma_pct": 3.0,
+      "rho": 0.9,
+      "method": "or4",
+      "snr": 3.333,
+      "arl0_samples": 23529.0,
+      "false_alarms_per_10min_20hz": 0.51,
+      "delay_median_samples": 4.0,
+      "delay_p95_samples": 5,
+      "miss_rate": 0.0
+    }
+  ]
+}
