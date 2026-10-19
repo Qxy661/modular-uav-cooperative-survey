@@ -1,4 +1,4 @@
-# 22 投稿骨架与主张一致性审计
+﻿# 22 投稿骨架与主张一致性审计
 
 > **本章定位**：把 00–21 章收敛成一份"能写出来、能被审、能被复现"的投稿骨架。
 > 它不引入新结果，只做三件事：把主张压成可检验的句子、把每个数字钉到源章节、
@@ -82,7 +82,7 @@
 | Section | 内容 | 素材 | 图表 |
 | --- | --- | --- | --- |
 | 1 Introduction | 场景（单旋翼模块+绑缚货物+ESP-NOW）、问题、贡献三条 | 17.1、本章 22.2 | Fig. 1 系统图 |
-| 2 Related work | 模块化飞行器、协同搬运、低通信协同、故障检测 | 02–09、13 | Table 1 对比表 |
+| 2 Related work | 模块化飞行器、协同搬运、低通信协同、故障检测 | 02–09、13、[23](23_related_work_table.md) | Table 1 对比表 |
 | 3 System model | 力映射 τ=Gf、零空间、测量模型、链路与年龄、故障模型 | 17.4 | Fig. 2 分解图 |
 | 4 Feasibility | 带宽/占空/年龄/传感链预算 | 14、18 | Table 2 预算；Fig. 3 队列 |
 | 5 Detectability | 残差 CUSUM、ARL0、物理时间账、σ 与频率的权衡 | 15.4、16、19 | Fig. 4 延迟曲线 |
@@ -105,7 +105,7 @@
 | Fig. 4 | 检测延迟 vs σ、频率、h | 19 | 脚本可出 |
 | Fig. 5 | 12 路力在载荷/零空间上的分量 | 20 | 脚本可出 |
 | Fig. 6 | D1–D3 结果（空缺） | runs/ | 待硬件 |
-| Table 1 | 与 MARS/Oishi/缆绳悬挂的对比 | 02–09 | 可写 |
+| Table 1 | 43 篇最接近工作的六列对照（平台/通信/力感知/故障/差异） | [23](23_related_work_table.md) | 已可写 |
 | Table 2 | 带宽与年龄预算 | 14、18 | 可写 |
 | Table 3 | D1–D3 协议与通过线 | 15 | 可写 |
 | Table 4 | 实测结果（空缺） | runs/ | 待硬件 |
@@ -139,6 +139,7 @@
 
 ```bash
 python experiments/check_claims.py          # 主张 ↔ 源章节 ↔ 骨架 数字一致
+python experiments/check_related_table.py   # 表 1 引用编号与六列结构
 python experiments/validate_runs.py         # runs/ 字段完整（无数据时退出 0）
 python experiments/d2_detection_budget_sim.py   # 重跑 19 章数字（固定种子）
 python experiments/internal_force_identifiability_sim.py  # 重跑 20 章数字
@@ -162,3 +163,4 @@ python experiments/internal_force_identifiability_sim.py  # 重跑 20 章数字
 
 **本章不产生新数字**；`experiments/paper_claims.json` 与本节表格是同一事实的两种表示，
 由 `experiments/check_claims.py` 强制同步。
+
