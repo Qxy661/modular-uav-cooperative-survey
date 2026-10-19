@@ -140,6 +140,8 @@
 ```bash
 python experiments/check_claims.py          # 主张 ↔ 源章节 ↔ 骨架 数字一致
 python experiments/check_related_table.py   # 表 1 引用编号与六列结构
+python experiments/check_intro.py           # 24 章主张与引用编号
+python experiments/check_submission.py      # 25 章 Highlights 字数/占位符/声明
 python experiments/validate_runs.py         # runs/ 字段完整（无数据时退出 0）
 python experiments/d2_detection_budget_sim.py   # 重跑 19 章数字（固定种子）
 python experiments/internal_force_identifiability_sim.py  # 重跑 20 章数字
@@ -158,8 +160,8 @@ python experiments/internal_force_identifiability_sim.py  # 重跑 20 章数字
 1. 骨架已完整，**唯一空缺是 Section 8（实测）**——这正好对应第 15/21 章的 D1–D3。
 2. 主张从 15 条压到 12 条以内更稳：C3/C4 可合并为"两个年龄"，C7/C8 合并为
    "频率-σ 权衡"，C11/C12 合并为"预紧与热漂移"。
-3. 下一步两条路：硬件到位 → 按 15/21 章做 D1–D3 并回填；硬件未到 → 写
-   Related work 的逐篇对照表（02–09 已有素材，缺的是"与本文的差异"列）。
+3. 下一步两条路：硬件到位 → 按 15/21 章做 D1–D3 并回填；硬件未到 → 用 [25](25_submission_package.md)
+   的材料包先组装支撑稿（cover letter、Highlights、声明已写成模板）。
 
 **本章不产生新数字**；`experiments/paper_claims.json` 与本节表格是同一事实的两种表示，
 由 `experiments/check_claims.py` 强制同步。
